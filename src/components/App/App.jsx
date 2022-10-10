@@ -18,6 +18,7 @@ export class App extends Component {
     if (parseContacts) {
       this.setState({ contacts: parseContacts });
     }
+    console.log('hello');
   }
   componentDidUpdate(prevProps, prevState) {
     if (this.state.contacts !== prevState.contacts) {
