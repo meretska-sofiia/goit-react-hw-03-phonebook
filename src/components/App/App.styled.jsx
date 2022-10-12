@@ -9,10 +9,6 @@ export const Container = styled.div`
   box-shadow: -12px 22px 28px -12px rgba(0, 0, 0, 0.66);
 `;
 
-export const MainTitle = styled.h1`
-  text-align: left;
-`;
-
-export const SecondaryTitle = styled.h2`
+export const Title = styled.h2`
   text-align: left;
 `;

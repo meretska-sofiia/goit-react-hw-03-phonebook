@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Input, Label } from './SearchContactFilter.styled';
+import { Input, Label } from './Filter.styled';
 const SearchContactFilter = ({ changeFilter }) => {
   return (
     <>
